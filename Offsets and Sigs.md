@@ -1,6 +1,6 @@
 # Functions
 
-## LineOfSightTo Function
+## StaticFindObject Function
 - Offset: 0x22FB1E0
 - IDA Sig: 48 89 5C 24 ? 48 89 74 24 ? 55 57 41 54 41 56 41 57 48 8B EC 48 83 EC 60 80 3D ? ? ? ? ? 45 0F B6 F1 49 8B F8 48 8B DA 4C 8B F9 74 4E 48 8B 05 ? ? ? ?
 - Code Pattern: \x48\x89\x5C\x24\x00\x48\x89\x74\x24\x00\x55\x57\x41\x54\x41\x56\x41\x57\x48\x8B\xEC\x48\x83\xEC\x60\x80\x3D\x00\x00\x00\x00\x00\x45\x0F\xB6\xF1\x49\x8B\xF8\x48\x8B\xDA\x4C\x8B\xF9\x74\x4E\x48\x8B\x05\x00\x00\x00\x00, xxxx?xxxx?xxxxxxxxxxxxxxxxx?????xxxxxxxxxxxxxxxxxx????
