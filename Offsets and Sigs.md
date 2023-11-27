@@ -1,5 +1,18 @@
-# Functions
+# Globals
+## GWorld (sigs potentially wrong, but most likely right)
+- Offset: 0x65A5CF0
 
+## GObjects
+- Offset: 0x64A0090
+
+## GNames
+- Offset: 0x45176C0
+
+## GEngine
+- Offset: 0x0
+
+
+# Functions
 ## StaticFindObject
 - Offset: 0x22FB1E0
 - IDA Sig: 48 89 5C 24 ? 48 89 74 24 ? 55 57 41 54 41 56 41 57 48 8B EC 48 83 EC 60 80 3D ? ? ? ? ? 45 0F B6 F1 49 8B F8 48 8B DA 4C 8B F9 74 4E 48 8B 05 ? ? ? ?
