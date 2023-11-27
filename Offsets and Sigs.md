@@ -1,1 +1,6 @@
-## test
+## Functions
+
+# LineOfSightTo Function
+- Address: 0x352C330
+- IDA Sig: 48 89 5C 24 ? 56 57 41 56 48 83 EC 40 33 FF 48 8B F1 4D 8B F0 48 8B DA 48 8B CA 48 89 7C 24 ? 48 39 7A 20 74 10 48 8B 52 18 4C 8D 44 24 ? E8 ? ? ? ? EB 1C
+- Code Pattern: \x48\x89\x5C\x24\x00\x56\x57\x41\x56\x48\x83\xEC\x40\x33\xFF\x48\x8B\xF1\x4D\x8B\xF0\x48\x8B\xDA\x48\x8B\xCA\x48\x89\x7C\x24\x00\x48\x39\x7A\x20\x74\x10\x48\x8B\x52\x18\x4C\x8D\x44\x24\x00\xE8\x00\x00\x00\x00\xEB\x1C, xxxx?xxxxxxxxxxxxxxxxxxxxxxxxxx?xxxxxxxxxxxxxx?x????xx
